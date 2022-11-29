@@ -1,7 +1,7 @@
 body{
     width: 100%;
     height: auto;
-    background-color: #F5F5F5;
+    background-color: #E2E2E2;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -23,21 +23,22 @@ main{
     margin: 30px 0px;
 }
 
-.button-wrapper button{
+.button-wrapper a{
     display: flex;
     align-items: center;
     border: none;
     background: transparent;
+    text-decoration: none;
 }
 
-.button-wrapper button p{
+.button-wrapper a p{
     margin: 0;
     color: #696F79;
     font-size: 11px;
     padding-right: 10px;
 }
 
-.button-wrapper button svg{
+.button-wrapper a svg{
     background-color: #30EFA6;
     border: none;
     border-radius: 100%;
@@ -82,7 +83,6 @@ main{
 
 .list-card .card .card-body .card-body-wrapper{
     display: flex;
-    color: #666666;
 }
 
 .list-card .card .card-body .card-body-wrapper .card-body-content{
@@ -93,6 +93,7 @@ main{
 .list-card .card .card-body .card-body-wrapper .card-body-content p{
     line-height: 25px;
     margin: 0;
+    color: #666666;
 }
 
 .list-card .card .card-body .card-body-wrapper .card-body-price{
@@ -104,4 +105,5 @@ main{
 .list-card .card .card-body .card-body-wrapper .card-body-price p{
     font-size: 40px;
     margin: 0;
+    color: #E2E2E2;
 }

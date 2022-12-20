@@ -44,6 +44,18 @@ export const Login = (props: Prop) => {
           />
           {errors.lastname && <div className="error">Enter your last name</div>}
         </div>
+        <div>
+          <label htmlFor="password">Password</label>
+          <input
+            placeholder="Password"
+            type="password"
+            {...register("password", {
+              required: true,
+              pattern: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,15}$/,
+            })}
+          />
+          {errors.password && <p>Please check the Password</p>}
+        </div>
         {/* onClick={props.onLogin} */}
         <button type="submit">Save</button>
       </form>

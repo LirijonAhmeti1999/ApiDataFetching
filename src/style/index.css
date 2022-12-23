@@ -110,6 +110,14 @@ body {
   flex: 1 1;
 }
 
+.products-section-item__remove {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: #dedede;
+  padding-bottom: 8px;
+}
+
 /* Modal */
 
 .add_modal {
